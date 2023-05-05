@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dr Strange di Multiverse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+    body, html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://akcdn.detik.net.id/community/media/visual/2021/12/23/doctor-strange-in-the-multiverse-of-madness-1_169.jpeg?w=700&q=90");
+	  min-height: 100%;
+    }
+
+    .menu {
+      display: none;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">STORYLINE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">CAST</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">REVIEW</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Directed by Sam Raimi</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:75px">Doctor Strange<br>in the<br>Multiverse of Madness</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Rilis Indonesia, 05 Mei 2022</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SINOPSIS</span></h5>
+    <p>Setelah peristiwa <i>Spider-Man No Way Home</i>, Doctor Stephen Strange tanpa disadari mengeluarkan mantra terlarang yang secara tidak sengaja membuka multiverse.</p>
+	<p>Sejak itu, Stephen Strange terus mengalami mimpi buruk. Dalam mimpinya, Strange melihat bangunan Sanctum Sancrotum yang hancur.</p>
+	<p>Mimpi yang sama terus berulang setiap hari, Strange bahkan melakukan perjalanan ke tempat yang tidak diketahui.</p>
+	<p>Dengan bantuan sekutu mistis lama dan juga baru, Strange melintasi realitas alternatif yang menakjubkan dari multiverse dan menghadapi musuh baru yang misterius.</p>
+	<p>Ancaman mantra terlarang ini sangat besar bagi umat manusia. Karena inilah Strange bekerja sama dengan Wong dan Wanda Maximoff.</p>
+	<p>Dengan bantuan dari Wong dan Wanda, Strange menghadapi berbagai versi dirinya serta bekerja sama dengan America Chavez muda saat melakukan perjalanan melalui berbagai realitas dan bekerja untuk mengembalikan kenyataan seperti yang dia tahu.</p>
+    <img src="https://cdnx.kincir.com/insecure/rs:fit:764/aHR0cHM6Ly9raW5jaXJpbWFnZS5zMy1hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tL3Byb2R1Y3Rpb24vMjAyMi0wNS9yZXZpZXctZmlsbS1kb2N0b3Itc3RyYW5nZS1pbi10aGUtbXVsdGl2ZXJzZS1vZi1tYWRuZXNzLTIwMjItbWFydmVsLTF-ZmE3ZjkxMmUtNjAxNS00NmI2LWJhZDctZDhlMGZlMGIxZTYwLmpwZw==" style="width:100%;max-width:1000px" class="w3-margin-top">
+	<p>Sepanjang jalan, Strange dan sekutunya menyadari bahwa mereka harus menghadapi musuh baru yang kuat yang berusaha mengambil alih multiverse.</p>
+	<p>Lalu bagaimana setelahnya? Untuk cerita lengkapnya bisa kamu tonton di situs legal seperti Disney+.</p>
+	<p>Ingat, harus situs legal ya! Karena kita harus menghargai produser film dan timnya yang telah bekerja keras menyuguhkan film yang bagus untuk kita.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"You break the rules and become a hero. I do it and I become the enemy. That doesn't seem fair."</i></p>
+      <p>Wanda Maximoff [to Strange]</p>
+    </div>
+    <img src="https://akcdn.detik.net.id/community/media/visual/2022/02/14/doctor-strange-in-the-multiverse-of-madness_169.jpeg?w=700&q=90" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MOVIE</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Cast');" id="myLink">
+        <div class="w3-col s6 tablink">Cast</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Related Movie</div>
+      </a>
+    </div>
+
+    <div id="Cast" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Dr. Stephen Strange</h5>
+      <p class="w3-text-grey">Benedict Cumberbatch</p><br>
+    
+      <h5>Wanda Maximoff / Scarlet Witch</h5>
+      <p class="w3-text-grey">Elizabeth Olsen</p><br>
+    
+      <h5>Karl Mordo</h5>
+      <p class="w3-text-grey">Chiwetel Ejiofor</p><br>
+    
+      <h5>Wong</h5>
+      <p class="w3-text-grey">Benedict Wong</p><br>
+    
+      <h5>America Chavez</h5>
+      <p class="w3-text-grey">Xochitl Gomez</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Doctor Strange</h5>
+      <p class="w3-text-grey">2016</p><br>
+    
+      <h5>Spider-Man: No Way Home</h5>
+      <p class="w3-text-grey">2021</p><br>
+    
+      <h5>WandaVision the Series</h5>
+      <p class="w3-text-grey">2021</p><br>
+    </div>  
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Review Film</span></h5>
+    <p><b><u>Doctor Strange in the Multiverse of Madness</u></b></p>
+    <img src="https://pbs.twimg.com/media/FQ656ZvVcAA05iP?format=jpg&name=large" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> Review film disini 100% adalah penilaian subjektif dari penulis, jika tidak sesuai dengan pendapatmu ya sudah tidak apa-apa. Setiap manusia punya hak untuk berpendapat, jadi saling menghargai pendapat satu sama lain ya.</p>
+	<p><strong>Alur cerita yang terkesan buru-buru</strong></p>
+	<p>Film ini merupakan sekuel dari beberapa proyek MCU sebelumnya yaitu Doctor Strange (2016), WandaVision (2021) dan Spider-Man: No Way Home (2021). Jadi perkembangan konflik di Multiverse of Madness sebenarnya sudah terjadi di beberapa proyek ini. Ini akan membuat Multiverse of Madness lebih "nyaman" dengan bercerita yang hanya berdurasi 2 jam 6 menit.</p>
+	<p>Namun dalam praktiknya, penyampaian cerita terasa terburu-buru seolah melanjutkan klip film MCU yang relatif singkat. Hal itu terlihat dari konflik yang seolah tiada habisnya sepanjang film. Padahal, sejak 20 menit pertama, sudah ada dua adegan perkelahian terkait konflik utama film tersebut.</p>	
+	<p><strong>Karakter Scarlet Witch yang menyeramkan sekaligus mengagumkan</strong></p>
+	<p>Semua aktor dalam film ini telah berusaha memerankan karakternya masing-masing dengan baik. Namun, salah satu pemain yang mencuri perhatian publik adalah Elizabeth Olsen sebagai Wanda Maximoff alias Scarlet Witch. Soalnya, di film ini kita akhirnya bisa melihat kengerian Scarlet Witch yang sebenarnya.</p>
+	<p>Karakter Scarlet Witch dalam film ini benar-benar berbeda dari proyek MCU sebelumnya, karena dia lebih agresif dan menakutkan. Scarlet Witch dalam film ini bahkan membuat para Avengers “bersyukur” memilikinya sebagai anggota. Elizabeth Olsen juga dengan terampil membuat Scarlet Witch dengan aura yang lebih menakutkan di film ini.</p>
+	<p><strong>Hanya fokus pada karakter "besar" saja</strong></p>
+	<p>Multiverse of Madness sepertinya hanya berfokus pada tiga karakter yang berperan besar dalam konflik tersebut. Ketiga karakter tersebut adalah Stephen Strange, Scarlet Witch, dan America Chavez. Sementara itu, beberapa karakter lain dalam film ini, selain ketiganya, tampak menghilang.</p>
+	<p>Bahkan termasuk Wong yang menyandang status Sorcerer Supreme di dunia MCU. Terlepas dari posisinya, sepanjang film, Wong digambarkan sebagai karakter tak berguna dengan kekuatan pas-pasan, bahkan kalah dengan Strange. Padahal dalam beberapa proyek MCU sebelumnya, Wong terkesan sebagai ahli seni mistik yang pandai.</p>
+	<p>Kemudian beberapa karakter lain yang menjadi unsur kejutan di film ini juga merasa bahwa <i>fan service</i> tidak diperlukan. Memang, kehadiran mereka hanyalah sebagai pengantar jagat MCU. Namun, seharusnya ada cara lain untuk membuat penampilan mereka di film ini setidaknya lebih berkesan.</p>
+<hr/>
+	<p>Sekian pembahasan film <b>Doctor Strange in the Multiverse of Madness</b>. Kami dari Kelompok 11 dengan anggota sebagai berikut:</p>
+    <p><strong>1. Nova Nadia Aprillia</strong>	<class="w3-text-grey">(NIM: F.131.21.0206)</p>
+    <p><strong>2. Wilis Setyawati</strong>	<class="w3-text-grey">(NIM: F.131.21.0208)</p>
+    <p><strong>3. Licknata Putri Nur Afni</strong>	<class="w3-text-grey">(NIM: F.131.21.0219)</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Tulis Komentar" required name="Komentar"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>	
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Website ini dibuat dalam rangka memenuhi tugas Mata Kuliah Teknologi Informasi untuk Psikologi</p>
+  <p>2023
+ <!-- Footer end. -->
+ </footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
